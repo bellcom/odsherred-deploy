@@ -13,11 +13,13 @@ projects[os2web][download][url] = "git@github.com:bellcom/os2web-odsherred.git"
 
 ; Odsherred Themes
 ; projects[cmstheme][download][branch] = "develop"
+projects[odsherredweb][type] = "theme"
 projects[odsherredweb][download][tag] = ""
 projects[odsherredweb][download][url] = "git@github.com:bellcom/odsherredweb.git"
 
 ; OS2Web Themes
 ; projects[cmstheme][download][branch] = "develop"
+projects[odsherredweb][type] = "theme"
 projects[cmstheme][download][tag] = ""
 projects[cmstheme][download][url] = "git@github.com:OS2web/os2web-theme.git"
 
