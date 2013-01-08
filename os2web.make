@@ -25,8 +25,8 @@ projects[bedstpaanettet][version] = "1.0"
 ; Odsherred Themes
 projects[cmstheme][type] = "theme"
 projects[cmstheme][download][type] = "git"
-projects[cmstheme][download][url] = "git://github.com/bellcom/odsherredweb.git"
-projects[cmstheme][directory] = "cmstheme"
+projects[odsherredweb][download][url] = "git://github.com/bellcom/odsherredweb.git"
+projects[odsherredweb][directory] = "cmstheme"
 
 ; OS2Web Themes
 projects[cmstheme][type] = "theme"
