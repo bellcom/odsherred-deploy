@@ -23,8 +23,8 @@ projects[bedstpaanettet][subdir] = "contrib"
 projects[bedstpaanettet][version] = "1.0"
 
 ; Odsherred Themes
-projects[cmstheme][type] = "theme"
-projects[cmstheme][download][type] = "git"
+projects[odsherredweb][type] = "theme"
+projects[odsherredweb][download][type] = "git"
 projects[odsherredweb][download][url] = "git://github.com/bellcom/odsherredweb.git"
 projects[odsherredweb][directory] = "cmstheme"
 
