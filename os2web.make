@@ -71,7 +71,7 @@ libraries[markitup][directory_name] = "markitup"
 libraries[markitup][destination] = "libraries"
 
 libraries[htmlpurifier][download][type] = "get"
-libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.4.0.tar.gz"
+libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.5.0.tar.gz"
 libraries[htmlpurifier][directory_name] = "htmlpurifier"
 libraries[htmlpurifier][destination] = "libraries"
 
@@ -466,6 +466,9 @@ projects[htmlpurifier][version] = "1.0"
 
 projects[tagadelic_views][subdir] = "contrib"
 projects[tagadelic_views][version] = "1.x-dev"
+
+projects[tagadelic][subdir] = "contrib"
+projects[tagadelic][version] = "1.x-dev"
 
 projects[quicktabs][subdir] = "contrib"
 projects[quicktabs][version] = "3.4"
