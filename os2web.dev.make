@@ -8,20 +8,22 @@ includes[base] = "os2web.make"
 
 ; OS2Web Modules
 projects[os2web][download][branch] = "develop"
-projects[os2web][download][tag] = ""
-projects[os2web][download][url] = "git@github.com:bellcom/os2web-odsherred.git"
+projects[os2web][download][type] = "git"
+projects[os2web][download][url] = "git://github.com/bellcom/os2web-odsherred.git"
 
 ; Odsherred Themes
-; projects[cmstheme][download][branch] = "develop"
 projects[odsherredweb][type] = "theme"
-projects[odsherredweb][download][tag] = ""
-projects[odsherredweb][download][url] = "git@github.com:bellcom/odsherredweb.git"
+projects[odsherredweb][download][type] = "git"
+projects[odsherredweb][download][branch] = "master"
+projects[odsherredweb][download][url] = "git://github.com/bellcom/odsherredweb.git"
+projects[odsherredweb][directory] = "odsherredweb"
 
 ; OS2Web Themes
-; projects[cmstheme][download][branch] = "develop"
-projects[odsherredweb][type] = "theme"
-projects[cmstheme][download][tag] = ""
-projects[cmstheme][download][url] = "git@github.com:OS2web/os2web-theme.git"
+projects[cmstheme][type] = "theme"
+projects[odsherredweb][download][type] = "git"
+projects[cmstheme][download][branch] = "develop"
+projects[cmstheme][download][url] = "git://github.com/OS2web/os2web-theme.git"
+projects[cmstheme][directory] = "cmstheme"
 
 ; Test
 projects[simpletest][subdir] = "contrib"

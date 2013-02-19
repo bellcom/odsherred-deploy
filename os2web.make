@@ -24,15 +24,16 @@ projects[bedstpaanettet][version] = "1.0"
 
 ; Odsherred Themes
 projects[odsherredweb][type] = "theme"
+projects[odsherredweb][download][branch] = "master"
 projects[odsherredweb][download][type] = "git"
 projects[odsherredweb][download][url] = "git://github.com/bellcom/odsherredweb.git"
-projects[odsherredweb][directory] = "cmstheme"
+projects[odsherredweb][directory] = "odsherredweb"
 
 ; OS2Web Themes
 projects[cmstheme][type] = "theme"
 projects[cmstheme][download][type] = "git"
 projects[cmstheme][download][url] = "git://github.com/OS2web/os2web-theme.git"
-projects[cmstheme][download][revision] = "1.10"
+;projects[cmstheme][download][revision] = "1.10"
 projects[cmstheme][directory] = "cmstheme"
 
 ;; Contrib modules below:
@@ -245,7 +246,7 @@ projects[field_slideshow][version] = "1.6"
 ; projects[field_slideshow][patch][] = "patches/field_slideshow.patch"
 
 projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "1.0"
+projects[libraries][version] = "2.0"
 
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.2"
@@ -374,9 +375,6 @@ projects[computed_field][version] = "1.0-beta1"
 ; projects[poshy_tip][subdir] = "contrib"
 ; projects[poshy_tip][version] = "1.0-beta1"
 
-projects[search_api][subdir] = "contrib"
-projects[search_api][version] = "1.1"
-
 projects[search_log][subdir] = "contrib"
 projects[search_log][version] = "1.0"
 
@@ -418,6 +416,9 @@ projects[apachesolr_attachments][version] = "1.0"
 projects[facetapi][subdir] = "contrib"
 projects[facetapi][version] = "1.0-rc4"
 
+projects[date_facets][subdir] = "contrib"
+projects[date_facets][version] = "1.0-beta1"
+
 projects[facetapi_pretty_paths][subdir] = "contrib"
 projects[facetapi_pretty_paths][version] = "1.0-alpha3"
 
@@ -426,18 +427,6 @@ projects[facetapi_slider][version] = "1.x-dev"
 
 projects[inline_ajax_search][subdir] = "contrib"
 projects[inline_ajax_search][version] = "1.x-dev"
-
-projects[search_api_autocomplete][subdir] = "contrib"
-projects[search_api_autocomplete][version] = "1.x-dev"
-
-projects[search_api_live_results][subdir] = "contrib"
-projects[search_api_live_results][version] = "1.x-dev"
-
-projects[search_api_page][subdir] = "contrib"
-projects[search_api_page][version] = "1.0-beta2"
-
-projects[search_api_solr][subdir] = "contrib"
-projects[search_api_solr][version] = "1.0-rc1"
 
 projects[search_facetapi][subdir] = "contrib"
 projects[search_facetapi][version] = "1.0-beta1"
@@ -469,6 +458,14 @@ projects[lightbox2][version] = "1.0-beta1"
 projects[views_php][subdir] = "contrib"
 projects[views_php][version] = "1.x-dev"
 
+projects[site_map][subdir] = "contrib"
+projects[site_map][version] = "1.0"
+
+projects[htmlpurifier][subdir] = "contrib"
+projects[htmlpurifier][version] = "1.0"
+
+projects[libraries][subdir] = "contrib"
+projects[libraries][version] = "2.0"
 ; Themes
 
 ; projects[rubik][version] = "4.0-beta8"
