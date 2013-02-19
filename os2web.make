@@ -464,8 +464,12 @@ projects[site_map][version] = "1.0"
 projects[htmlpurifier][subdir] = "contrib"
 projects[htmlpurifier][version] = "1.0"
 
-projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "2.0"
+projects[tagadelic_views][subdir] = "contrib"
+projects[tagadelic_views][version] = "1.x-dev"
+
+projects[quicktabs][subdir] = "contrib"
+projects[quicktabs][version] = "3.4"
+
 ; Themes
 
 ; projects[rubik][version] = "4.0-beta8"
