@@ -21,7 +21,7 @@ function os2web_install() {
 
   theme_enable(array('seven', 'cmstheme'));
   theme_disable(array('bartik', 'rubik'));
-  variable_set('theme_default', 'cmstheme');
+  variable_set('theme_default', 'odsherredweb');
 
   // Set admin theme to Rubik.
   variable_set('admin_theme', 'seven');

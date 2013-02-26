@@ -16,14 +16,31 @@ projects[da][directory_name] = "translations"
 ; OS2Web Modules
 projects[os2web][type] = "module"
 projects[os2web][download][type] = "git"
-projects[os2web][download][url] = "git://github.com/OS2web/os2web.git"
-projects[os2web][download][revision] = "1.10"
+projects[os2web][download][url] = "git://github.com/bellcom/os2web-odsherred.git"
+
+; Bedst paa nettet
+projects[bedstpaanettet][subdir] = "contrib"
+projects[bedstpaanettet][version] = "1.0"
+
+; Borger.dk Integration
+projects[os2web_borger_dk][type] = "module"
+projects[os2web_borger_dk][download][type] = "git"
+projects[os2web_borger_dk][download][tag] = "1.0"
+projects[os2web_borger_dk][download][branch] = "master"
+projects[os2web_borger_dk][download][url] = "https://github.com/OS2web/os2web_borger_dk.git"
+
+; Odsherred Themes
+projects[odsherredweb][type] = "theme"
+projects[odsherredweb][download][branch] = "master"
+projects[odsherredweb][download][type] = "git"
+projects[odsherredweb][download][url] = "git://github.com/bellcom/odsherredweb.git"
+projects[odsherredweb][directory] = "odsherredweb"
 
 ; OS2Web Themes
 projects[cmstheme][type] = "theme"
 projects[cmstheme][download][type] = "git"
 projects[cmstheme][download][url] = "git://github.com/OS2web/os2web-theme.git"
-projects[cmstheme][download][revision] = "1.10"
+;projects[cmstheme][download][revision] = "1.10"
 projects[cmstheme][directory] = "cmstheme"
 
 ;; Contrib modules below:
@@ -61,7 +78,7 @@ libraries[markitup][directory_name] = "markitup"
 libraries[markitup][destination] = "libraries"
 
 libraries[htmlpurifier][download][type] = "get"
-libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.4.0.tar.gz"
+libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.5.0.tar.gz"
 libraries[htmlpurifier][directory_name] = "htmlpurifier"
 libraries[htmlpurifier][destination] = "libraries"
 
@@ -99,17 +116,17 @@ libraries[dompdf][destination] = "modules/contrib/print"
 
 ; Features + related
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-rc2"
+projects[features][version] = "1.0"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0-rc1"
+projects[strongarm][version] = "2.0"
 
 ;Views
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.3"
+projects[views][version] = "3.5"
 
-projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "3.0-rc1"
+; projects[views_bulk_operations][subdir] = "contrib"
+; projects[views_bulk_operations][version] = "3.0-rc1"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.0"
@@ -129,27 +146,27 @@ projects[menu_minipanels][version] = "1.0-rc6"
 
 ; Media
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.0-unstable6"
+projects[media][version] = "2.0-unstable7"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.x-dev"
-;projects[file_entity][patch][] = "http://drupal.org/files/1553094-alt_and_title_support_for_images-175.patch"
+projects[file_entity][version] = "2.0-unstable7"
+; projects[file_entity][patch][] = "http://drupal.org/files/1553094-alt_and_title_support_for_images-175.patch"
 
-projects[media_browser_plus][subdir] = "contrib"
-projects[media_browser_plus][version] = "1.x-dev"
+; projects[media_browser_plus][subdir] = "contrib"
+; projects[media_browser_plus][version] = "1.x-dev"
 
 projects[multiform][subdir] = "contrib"
 projects[multiform][version] = "1.0"
 
 projects[media_youtube][subdir] = "contrib"
-projects[media_youtube][version] = "1.0-beta3"
+projects[media_youtube][version] = "2.0-rc1"
 
 ; Files
 projects[filefield_sources][subdir] = "contrib"
-projects[filefield_sources][version] = "1.4"
+projects[filefield_sources][version] = "1.7"
 
 projects[filefield_sources_plupload][subdir] = "contrib"
-projects[filefield_sources_plupload][version] = "1.x-dev"
+projects[filefield_sources_plupload][version] = "1.0"
 
 ; Workbench
 projects[workbench][subdir] = "contrib"
@@ -167,13 +184,13 @@ projects[workbench_access][version] = "1.0"
 
 ; Basic
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.1"
+projects[ctools][version] = "1.2"
 
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.5"
+projects[date][version] = "2.6"
 
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-rc3"
@@ -188,7 +205,7 @@ projects[jquery_ui][subdir] = "contrib"
 projects[jquery_ui][version] = "1.x-dev"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta3"
+projects[context][version] = "3.0-beta4"
 
 projects[admin][subdir] = "contrib"
 projects[admin][version] = "2.0-beta3"
@@ -229,14 +246,14 @@ projects[link][version] = "1.0"
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.1"
 ; Patch to remove notices in badly stored features. TODO: add issue on d.o
-projects[field_group][patch][] = "patches/field_group-1.patch"
+; projects[field_group][patch][] = "patches/field_group-1.patch"
 
 projects[field_slideshow][subdir] = "contrib"
 projects[field_slideshow][version] = "1.6"
-projects[field_slideshow][patch][] = "patches/field_slideshow.patch"
+; projects[field_slideshow][patch][] = "patches/field_slideshow.patch"
 
 projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "1.0"
+projects[libraries][version] = "2.0"
 
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.2"
@@ -267,7 +284,7 @@ projects[menuux][version] = "1.0-beta2"
 projects[menuux][patch][] = "http://drupal.org/files/menuux-7.x-1.x-beta2.patch"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.1"
+projects[wysiwyg][version] = "2.2"
 
 ; projects[skinr][subdir] = "contrib"
 ; projects[skinr][version] = "2.0-beta1"
@@ -318,7 +335,7 @@ projects[taxonomy_menu][subdir] = "contrib"
 projects[taxonomy_menu][version] = "1.2"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.1"
+projects[token][version] = "1.4"
 
 projects[prepopulate][subdir] = "contrib"
 projects[prepopulate][version] = "2.x-dev"
@@ -356,7 +373,7 @@ projects[feeds_xpathparser][subdir] = "contrib"
 projects[feeds_xpathparser][version] = "1.x-dev"
 
 projects[entityreference][subdir] = "contrib"
-projects[entityreference][version] = "1.0-rc1"
+projects[entityreference][version] = "1.0"
 
 projects[computed_field][subdir] = "contrib"
 projects[computed_field][version] = "1.0-beta1"
@@ -365,14 +382,11 @@ projects[computed_field][version] = "1.0-beta1"
 ; projects[poshy_tip][subdir] = "contrib"
 ; projects[poshy_tip][version] = "1.0-beta1"
 
-projects[search_api][subdir] = "contrib"
-projects[search_api][version] = "1.1"
-
 projects[search_log][subdir] = "contrib"
 projects[search_log][version] = "1.0"
 
 projects[fontyourface][subdir] = "contrib"
-projects[fontyourface][version] = "2.3"
+projects[fontyourface][version] = "2.6"
 
 projects[nice_menus][subdir] = "contrib"
 projects[nice_menus][version] = "2.1"
@@ -409,6 +423,9 @@ projects[apachesolr_attachments][version] = "1.0"
 projects[facetapi][subdir] = "contrib"
 projects[facetapi][version] = "1.0-rc4"
 
+projects[date_facets][subdir] = "contrib"
+projects[date_facets][version] = "1.0-beta1"
+
 projects[facetapi_pretty_paths][subdir] = "contrib"
 projects[facetapi_pretty_paths][version] = "1.0-alpha3"
 
@@ -417,18 +434,6 @@ projects[facetapi_slider][version] = "1.x-dev"
 
 projects[inline_ajax_search][subdir] = "contrib"
 projects[inline_ajax_search][version] = "1.x-dev"
-
-projects[search_api_autocomplete][subdir] = "contrib"
-projects[search_api_autocomplete][version] = "1.x-dev"
-
-projects[search_api_live_results][subdir] = "contrib"
-projects[search_api_live_results][version] = "1.x-dev"
-
-projects[search_api_page][subdir] = "contrib"
-projects[search_api_page][version] = "1.0-beta2"
-
-projects[search_api_solr][subdir] = "contrib"
-projects[search_api_solr][version] = "1.0-rc1"
 
 projects[search_facetapi][subdir] = "contrib"
 projects[search_facetapi][version] = "1.0-beta1"
@@ -443,11 +448,37 @@ projects[fieldable_panels_panes][subdir] = "contrib"
 projects[fieldable_panels_panes][version] = "1.2"
 
 projects[eim][subdir] = "contrib"
-projects[eim][version] = "1.1"
+projects[eim][version] = "1.2"
 
+projects[feedback][subdir] = "contrib"
+projects[feedback][version] = "2.x-dev"
+
+projects[lightbox2][subdir] = "contrib"
+projects[lightbox2][version] = "1.0-beta1"
 
 projects[environment_indicator][subdir] = "contrib"
 projects[environment_indicator][version] = "1.1"
+
+projects[lightbox2][subdir] = "contrib"
+projects[lightbox2][version] = "1.0-beta1"
+
+projects[views_php][subdir] = "contrib"
+projects[views_php][version] = "1.x-dev"
+
+projects[site_map][subdir] = "contrib"
+projects[site_map][version] = "1.0"
+
+projects[htmlpurifier][subdir] = "contrib"
+projects[htmlpurifier][version] = "1.0"
+
+projects[tagadelic_views][subdir] = "contrib"
+projects[tagadelic_views][version] = "1.x-dev"
+
+projects[tagadelic][subdir] = "contrib"
+projects[tagadelic][version] = "1.x-dev"
+
+projects[quicktabs][subdir] = "contrib"
+projects[quicktabs][version] = "3.4"
 
 ; Themes
 
