@@ -67,6 +67,11 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
+libraries[mediaembed][download][type]= "get"
+libraries[mediaembed][download][url] = "http://download.ckeditor.com/mediaembed/releases/mediaembed_0.4.zip" 
+libraries[mediaembed][directory_name] = "mediaembed"
+libraries[mediaembed][destination] = "libraries"
+
 libraries[plupload][download][type] = "get"
 libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_2.zip"
 libraries[plupload][directory_name] = "plupload"
