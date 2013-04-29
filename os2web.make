@@ -128,7 +128,7 @@ projects[strongarm][version] = "2.0"
 
 ;Views
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.5"
+projects[views][version] = "3.7"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.0"
@@ -137,7 +137,7 @@ projects[views_php][subdir] = "contrib"
 projects[views_php][version] = "1.x-dev"
 
 projects[better_exposed_filters][subdir] = "contrib"
-projects[better_exposed_filters][version] = "3.0-beta1"
+projects[better_exposed_filters][version] = "3.0-beta3"
 
 ; Panels
 projects[panels][subdir] = "contrib"
@@ -186,7 +186,7 @@ projects[workbench_access][version] = "1.0"
 
 ; Basic
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.2"
+projects[ctools][version] = "1.3"
 
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
@@ -207,7 +207,7 @@ projects[jquery_ui][subdir] = "contrib"
 projects[jquery_ui][version] = "1.x-dev"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta4"
+projects[context][version] = "3.0-beta6"
 
 projects[admin][subdir] = "contrib"
 projects[admin][version] = "2.0-beta3"
@@ -267,10 +267,10 @@ projects[webform][subdir] = "contrib"
 projects[webform][version] = "3.17"
 
 projects[rules][subdir] = "contrib"
-projects[rules][version] = "2.1"
+projects[rules][version] = "2.3"
 
 projects[plupload][subdir] = "contrib"
-projects[plupload][version] = "1.0"
+projects[plupload][version] = "1.1"
 
 projects[image_url_formatter][subdir] = "contrib"
 projects[image_url_formatter][version] = "1.0"
@@ -279,7 +279,7 @@ projects[content_taxonomy][subdir] = "contrib"
 projects[content_taxonomy][version] = "1.0-beta1"
 
 projects[autocomplete_deluxe][subdir] = "contrib"
-projects[autocomplete_deluxe][version] = "1.0-beta5"
+projects[autocomplete_deluxe][version] = "1.0-beta7"
 
 projects[menuux][subdir] = "contrib"
 projects[menuux][version] = "1.0-beta2"
@@ -319,7 +319,7 @@ projects[disable_messages][subdir] = "contrib"
 projects[disable_messages][version] = "1.0"
 
 projects[ds][subdir] = "contrib"
-projects[ds][version] = "1.5"
+projects[ds][version] = "1.7"
 
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.4"
