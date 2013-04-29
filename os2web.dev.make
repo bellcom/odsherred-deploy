@@ -20,7 +20,7 @@ projects[odsherredweb][directory] = "odsherredweb"
 
 ; OS2Web Themes
 projects[cmstheme][type] = "theme"
-projects[odsherredweb][download][type] = "git"
+projects[cmstheme][download][type] = "git"
 projects[cmstheme][download][branch] = "develop"
 projects[cmstheme][download][url] = "git://github.com/OS2web/os2web-theme.git"
 projects[cmstheme][directory] = "cmstheme"

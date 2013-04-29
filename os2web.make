@@ -68,7 +68,7 @@ libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
 libraries[mediaembed][download][type]= "get"
-libraries[mediaembed][download][url] = "http://download.ckeditor.com/mediaembed/releases/mediaembed_0.4.zip" 
+libraries[mediaembed][download][url] = "http://download.ckeditor.com/mediaembed/releases/mediaembed_0.4.zip"
 libraries[mediaembed][directory_name] = "mediaembed"
 libraries[mediaembed][destination] = "libraries"
 
@@ -129,9 +129,6 @@ projects[strongarm][version] = "2.0"
 ;Views
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.5"
-
-; projects[views_bulk_operations][subdir] = "contrib"
-; projects[views_bulk_operations][version] = "3.0-rc1"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.0"
@@ -464,17 +461,8 @@ projects[lightbox2][version] = "1.0-beta1"
 projects[environment_indicator][subdir] = "contrib"
 projects[environment_indicator][version] = "1.1"
 
-projects[lightbox2][subdir] = "contrib"
-projects[lightbox2][version] = "1.0-beta1"
-
-projects[views_php][subdir] = "contrib"
-projects[views_php][version] = "1.x-dev"
-
 projects[site_map][subdir] = "contrib"
 projects[site_map][version] = "1.0"
-
-projects[htmlpurifier][subdir] = "contrib"
-projects[htmlpurifier][version] = "1.0"
 
 projects[tagadelic_views][subdir] = "contrib"
 projects[tagadelic_views][version] = "1.x-dev"
@@ -484,6 +472,51 @@ projects[tagadelic][version] = "1.x-dev"
 
 projects[quicktabs][subdir] = "contrib"
 projects[quicktabs][version] = "3.4"
+
+projects[addtoany][subdir] = "contrib"
+projects[addtoany][version] = "4.0"
+
+projects[cmf][subdir] = "contrib"
+projects[cmf][version] = "1.x-dev"
+
+projects[extlink][subdir] = "contrib"
+projects[extlink][version] = "1.12"
+
+projects[features_extra][subdir] = "contrib"
+projects[features_extra][version] = "1.0-beta1"
+
+projects[insertFrame][subdir] = "contrib"
+projects[insertFrame][version] = "2.1"
+
+projects[logintoboggan][subdir] = "contrib"
+projects[logintoboggan][version] = "1.3"
+
+projects[media_crop][subdir] = "contrib"
+projects[media_crop][version] = "1.4"
+
+projects[menu_attributes][subdir] = "contrib"
+projects[menu_attributes][version] = "1.0-rc2"
+
+projects[publishcontent][subdir] = "contrib"
+projects[publishcontent][version] = "1.1"
+
+projects[search_api_solr][subdir] = "contrib"
+projects[search_api_solr][version] = "1.0-rc4"
+
+projects[service_links][subdir] = "contrib"
+projects[service_links][version] = "2.1"
+
+projects[taxonomy_access][subdir] = "contrib"
+projects[taxonomy_access][version] = "1.0-rc1"
+
+projects[taxonomy_manager][subdir] = "contrib"
+projects[taxonomy_manager][version] = "1.0-rc2"
+
+projects[views_bulk_operations][subdir] = "contrib"
+projects[views_bulk_operations][version] = "3.1"
+
+projects[weight][subdir] = "contrib"
+projects[weight][version] = "2.2"
 
 ; Themes
 
