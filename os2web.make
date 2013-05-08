@@ -149,6 +149,8 @@ projects[menu_minipanels][version] = "1.1"
 ; Media
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-unstable7"
+projects[media][patch][] = "http://drupal.org/files/media-media_browser-preview_javascript_incompatibility-1743040.patch"
+
 
 projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable7"
@@ -517,6 +519,9 @@ projects[views_bulk_operations][version] = "3.1"
 
 projects[weight][subdir] = "contrib"
 projects[weight][version] = "2.2"
+
+projects[menu_import][subdir] = "contrib"
+projects[menu_import][version] = "1.5"
 
 ; Themes
 
