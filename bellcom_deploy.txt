@@ -1,0 +1,4 @@
+
+============== Drupal 7.15 -> 7.22 ===============
+./reroll.dev.sh
+drush cc registry
