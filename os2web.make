@@ -16,7 +16,7 @@ projects[da][directory_name] = "translations"
 ; OS2Web Modules
 projects[os2web][type] = "module"
 projects[os2web][download][type] = "git"
-projects[os2web][download][url] = "git://github.com/bellcom/os2web-odsherred.git"
+projects[os2web][download][url] = "https://github.com/bellcom/os2web-odsherred.git"
 
 ; Bedst paa nettet
 projects[bedstpaanettet][subdir] = "contrib"
@@ -33,13 +33,13 @@ projects[os2web_borger_dk][download][url] = "https://github.com/OS2web/os2web_bo
 projects[odsherredweb][type] = "theme"
 projects[odsherredweb][download][branch] = "master"
 projects[odsherredweb][download][type] = "git"
-projects[odsherredweb][download][url] = "git://github.com/bellcom/odsherredweb.git"
+projects[odsherredweb][download][url] = "https://github.com/bellcom/odsherredweb.git"
 projects[odsherredweb][directory] = "odsherredweb"
 
 ; OS2Web Themes
 projects[cmstheme][type] = "theme"
 projects[cmstheme][download][type] = "git"
-projects[cmstheme][download][url] = "git://github.com/OS2web/os2web-theme.git"
+projects[cmstheme][download][url] = "https://github.com/OS2web/os2web-theme.git"
 ;projects[cmstheme][download][revision] = "1.10"
 projects[cmstheme][directory] = "cmstheme"
 
