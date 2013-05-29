@@ -189,6 +189,7 @@ projects[workbench_access][version] = "1.0"
 ; Basic
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.3"
+projects[ctools][patch][] = "http://drupal.org/files/ctools-1925018-61.patch"
 
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
