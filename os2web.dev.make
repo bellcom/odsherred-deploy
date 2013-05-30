@@ -9,20 +9,20 @@ includes[base] = "os2web.make"
 ; OS2Web Modules
 projects[os2web][download][branch] = "develop"
 projects[os2web][download][type] = "git"
-projects[os2web][download][url] = "git://github.com/bellcom/os2web-odsherred.git"
+projects[os2web][download][url] = "git@github.com:bellcom/os2web-odsherred.git"
 
 ; Odsherred Themes
 projects[odsherredweb][type] = "theme"
 projects[odsherredweb][download][type] = "git"
 projects[odsherredweb][download][branch] = "master"
-projects[odsherredweb][download][url] = "git://github.com/bellcom/odsherredweb.git"
+projects[odsherredweb][download][url] = "git@github.com:bellcom/odsherredweb.git"
 projects[odsherredweb][directory] = "odsherredweb"
 
 ; OS2Web Themes
 projects[cmstheme][type] = "theme"
 projects[cmstheme][download][type] = "git"
 projects[cmstheme][download][branch] = "develop"
-projects[cmstheme][download][url] = "git://github.com/OS2web/os2web-theme.git"
+projects[cmstheme][download][url] = "git@github.com:OS2web/os2web-theme.git"
 projects[cmstheme][directory] = "cmstheme"
 
 ; Test
