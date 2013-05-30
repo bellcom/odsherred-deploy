@@ -415,6 +415,7 @@ projects[expire][version] = "1.0-alpha3"
 ; Solr and search
 projects[apachesolr][subdir] = "contrib"
 projects[apachesolr][version] = "1.2"
+projects[apachesolr][patch][] = "patches/apachesolr-1979506-taxonomy-multiple-1.patch"
 
 projects[apachesolr_views][subdir] = "contrib"
 projects[apachesolr_views][version] = "1.0-beta2"
