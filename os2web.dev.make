@@ -14,7 +14,7 @@ projects[os2web][download][url] = "git@github.com:bellcom/os2web-odsherred.git"
 ; Odsherred Themes
 projects[odsherredweb][type] = "theme"
 projects[odsherredweb][download][type] = "git"
-projects[odsherredweb][download][branch] = "master"
+projects[odsherredweb][download][branch] = "develop"
 projects[odsherredweb][download][url] = "git@github.com:bellcom/odsherredweb.git"
 projects[odsherredweb][directory] = "odsherredweb"
 
