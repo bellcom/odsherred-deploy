@@ -522,6 +522,9 @@ projects[weight][version] = "2.2"
 projects[menu_import][subdir] = "contrib"
 projects[menu_import][version] = "1.5"
 
+projects[searchcloud_block][subdir] = "contrib"
+projects[searchcloud_block][version] = "1.2"
+
 ; Themes
 
 ; projects[rubik][version] = "4.0-beta8"
