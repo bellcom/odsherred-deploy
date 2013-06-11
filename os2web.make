@@ -97,6 +97,16 @@ libraries[qtip][download][url] = "https://raw.github.com/bellcom/qTip1/master/1.
 libraries[qtip][directory_name] = "qtip"
 libraries[qtip][destination] = "libraries"
 
+libraries[jquery.imagesloaded][download][type] = "git"
+libraries[jquery.imagesloaded][download][url] = "https://github.com/desandro/imagesloaded.git"
+libraries[jquery.imagesloaded][download][tag] = "v3.0.1"
+libraries[jquery.imagesloaded][destination] = "libraries"
+
+libraries[simplepie][download][type] = "git"
+libraries[simplepie][download][url] = "https://github.com/simplepie/simplepie.git"
+libraries[simplepie][download][tag] = "1.3.1"
+libraries[simplepie][destination] = "libraries"
+
 ; Removed for breaking IE
 ;libraries[poshytip][download][type] = "get"
 ;libraries[poshytip][download][url] = "http://vadikom.com/files/?file=poshytip/poshytip-1.1.zip"
