@@ -528,6 +528,9 @@ projects[menu_import][version] = "1.5"
 projects[searchcloud_block][subdir] = "contrib"
 projects[searchcloud_block][version] = "1.2"
 
+projects[redirect][subdir] = "contrib"
+projects[redirect][version] = "1.0-rc1"
+
 ; Themes
 
 ; projects[rubik][version] = "4.0-beta8"
