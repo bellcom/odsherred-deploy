@@ -538,6 +538,9 @@ projects[searchcloud_block][version] = "1.2"
 projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc1"
 
+projects[google_analytics][subdir] = "contrib"
+projects[google_analytics][version] = "1.3"
+
 ; Themes
 
 ; projects[rubik][version] = "4.0-beta8"
