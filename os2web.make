@@ -544,8 +544,8 @@ projects[google_analytics][version] = "1.3"
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.9"
 
-projects[metatag][subdir] = "contrib"
-projects[metatag][version] = "1.9"
+projects[eu-cookie-compliance][subdir] = "contrib"
+projects[eu-cookie-compliance][version] = "1.9"
 
 ; Themes
 
