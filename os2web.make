@@ -541,6 +541,12 @@ projects[redirect][version] = "1.0-rc1"
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.3"
 
+projects[metatag][subdir] = "contrib"
+projects[metatag][version] = "1.9"
+
+projects[eu-cookie-compliance][subdir] = "contrib"
+projects[eu-cookie-compliance][version] = "1.9"
+
 ; Themes
 
 ; projects[rubik][version] = "4.0-beta8"
