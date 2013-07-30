@@ -461,7 +461,7 @@ projects[fieldable_panels_panes][subdir] = "contrib"
 projects[fieldable_panels_panes][version] = "1.4"
 
 projects[eim][subdir] = "contrib"
-projects[eim][version] = "1.2"
+projects[eim][version] = "1.3"
 
 projects[feedback][subdir] = "contrib"
 projects[feedback][version] = "2.x-dev"
