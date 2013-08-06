@@ -1,0 +1,13 @@
+--- dev-201308011418/modules/contrib/references/node_reference/node_reference.module	2013-08-01 14:20:55.455900779 +0200
++++ dev-201308011554/modules/contrib/references/node_reference/node_reference.module	2013-08-06 11:41:18.776913570 +0200
+@@ -909,6 +909,10 @@
+     $matches[$row['title'] . " [nid:$id]"] = '<div class="reference-autocomplete">' . $suggestion . '</div>';
+   }
+ 
++  if (empty($matches)) {
++    $matches[] = 'No result found for "'. $string .'"';
++  }
++
+   drupal_json_output($matches);
+ }
+ 
