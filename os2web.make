@@ -212,6 +212,7 @@ projects[ldap][version] = "1.0-beta12"
 
 projects[references][subdir] = "contrib"
 projects[references][version] = "2.1"
+projects[references][patch][] = "patches/node_reference.patch"
 
 projects[jquery_ui][subdir] = "contrib"
 projects[jquery_ui][version] = "1.x-dev"
@@ -461,7 +462,7 @@ projects[fieldable_panels_panes][subdir] = "contrib"
 projects[fieldable_panels_panes][version] = "1.4"
 
 projects[eim][subdir] = "contrib"
-projects[eim][version] = "1.2"
+projects[eim][version] = "1.3"
 
 projects[feedback][subdir] = "contrib"
 projects[feedback][version] = "2.x-dev"
