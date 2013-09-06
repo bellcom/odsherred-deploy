@@ -48,20 +48,12 @@ if [ -d "build/$BUILD_DIR/modules" ]; then
 	cp $PROFILE_SRC.info build/$BUILD_DIR/$PROFILE_DST.info
 	cp $PROFILE_SRC.profile build/$BUILD_DIR/$PROFILE_DST.profile
 	cp $PROFILE_SRC.install build/$BUILD_DIR/$PROFILE_DST.install
-	cp db.sql.gz build/$BUILD_DIR/db.sql.gz
 
 	# Move old build to previous
 	unlink build/$BUILD_DIR_PREV
 	mv build/$BUILD_DIR_LATEST build/$BUILD_DIR_PREV
 	# Make new build the latest
 	ln -sf $BUILD_DIR build/$BUILD_DIR_LATEST
-
-	# Take a copy of the current database,
-	# and put it in the previous build. Code and database keeps together.
-	echo "Backing up the database..."
-		# TODO: skip basic tables like cache --structure-tables-key=#{tables}
-		# Will make the dump smaller.
-	drush sql-dump --root=$DRUPAL_ROOT --uri=$URI --gzip > build/$BUILD_DIR_PREV/sql-dump.$DATE.sql.gz
 
 	echo "Updating database... Site will go in maintenance mode!"
 	drush --root=$DRUPAL_ROOT --uri=$URI vset maintenance_mode 1
@@ -77,6 +69,10 @@ if [ -d "build/$BUILD_DIR/modules" ]; then
 	drush --root=$DRUPAL_ROOT --uri=$URI vset maintenance_mode 0
 
 	echo "Deploy Complete. End of maintenance mode!"
+
+	# Cleanup old builds.
+	echo "Deleting old build dirs..."
+	. ./cleanup.sh
 else
 	# Build failed, remove build
 	rm -rf build/$BUILD_DIR
