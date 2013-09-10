@@ -59,6 +59,9 @@ core = 7.x
 ;dependencies[] = os2web_esdh_provider
 ;dependencies[] = acadre_esdh
 ;
+;; Odsherred features
+;dependencies[] = odsherred_create_content_page
+;
 ;; Acadre MM
 ;; dependencies[] = os2web_meetings
 ;
