@@ -548,6 +548,9 @@ projects[metatag][version] = "1.9"
 projects[eu-cookie-compliance][subdir] = "contrib"
 projects[eu-cookie-compliance][version] = "1.9"
 
+projects[honeypot][subdir] = "contrib"
+projects[honeypot][version] = "1.14"
+
 ; Themes
 
 ; projects[rubik][version] = "4.0-beta8"
