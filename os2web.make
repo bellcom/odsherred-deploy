@@ -212,7 +212,7 @@ projects[ldap][version] = "1.0-beta12"
 
 projects[references][subdir] = "contrib"
 projects[references][version] = "2.1"
-projects[references][patch][] = "patches/node_reference.patch"
+# projects[references][patch][] = "patches/node_reference.patch"
 
 projects[jquery_ui][subdir] = "contrib"
 projects[jquery_ui][version] = "1.x-dev"
@@ -547,6 +547,9 @@ projects[metatag][version] = "1.9"
 
 projects[eu-cookie-compliance][subdir] = "contrib"
 projects[eu-cookie-compliance][version] = "1.9"
+
+projects[honeypot][subdir] = "contrib"
+projects[honeypot][version] = "1.14"
 
 ; Themes
 
