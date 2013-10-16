@@ -552,3 +552,7 @@ projects[eu-cookie-compliance][version] = "1.9"
 
 ; projects[rubik][version] = "4.0-beta8"
 ; projects[tao][version] = "3.0-beta4"
+
+projects[honeypot][subdir] = "contrib"
+projects[honeypot][version] = "1.14"
+
