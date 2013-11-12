@@ -416,6 +416,7 @@ projects[scheduler][version] = "1.1"
 ; For varnish
 projects[varnish][subdir] = "contrib"
 projects[varnish][version] = "1.0-beta2"
+projects[varnish][patch][1481136] = "http://drupal.org/files/varnish_purge_limit-1481136-10.patch"
 
 projects[expire][subdir] = "contrib"
 projects[expire][version] = "1.0-beta1"
@@ -543,10 +544,13 @@ projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.3"
 
 projects[metatag][subdir] = "contrib"
-projects[metatag][version] = "1.9"
+projects[metatag][version] = "1.0-beta7"
 
 projects[eu-cookie-compliance][subdir] = "contrib"
 projects[eu-cookie-compliance][version] = "1.9"
+
+projects[honeypot][subdir] = "contrib"
+projects[honeypot][version] = "1.14"
 
 ; Themes
 
