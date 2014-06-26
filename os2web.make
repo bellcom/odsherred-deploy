@@ -395,8 +395,8 @@ projects[computed_field][version] = "1.0-beta1"
 ; projects[poshy_tip][subdir] = "contrib"
 ; projects[poshy_tip][version] = "1.0-beta1"
 
-projects[search_log][subdir] = "contrib"
-projects[search_log][version] = "1.0"
+projects[apachesolr_stats][subdir] = "contrib"
+projects[apachesolr_stats][version] = "1.0-beta1"
 
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.8"
