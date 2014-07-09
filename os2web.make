@@ -83,7 +83,8 @@ libraries[markitup][directory_name] = "markitup"
 libraries[markitup][destination] = "libraries"
 
 libraries[htmlpurifier][download][type] = "get"
-libraries[htmlpurifier][download][url] = "http://htmlpurifier.org/releases/htmlpurifier-4.5.0.tar.gz"
+# v 4.5.0 http://htmlpurifier.org/releases/htmlpurifier-4.5.0.tar.gz is deprecated.
+libraries[htmlpurifier][download][url] = "http://repo.or.cz/w/htmlpurifier.git/snapshot/d516e2f8de435ea78cc6152abc425d3ff2c4d289.tar.gz"
 libraries[htmlpurifier][directory_name] = "htmlpurifier"
 libraries[htmlpurifier][destination] = "libraries"
 
