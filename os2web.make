@@ -39,8 +39,8 @@ projects[odsherredweb][directory] = "odsherredweb"
 ; OS2Web Themes
 projects[cmstheme][type] = "theme"
 projects[cmstheme][download][type] = "git"
-projects[cmstheme][download][url] = "https://github.com/OS2web/os2web-theme.git"
-;projects[cmstheme][download][revision] = "1.10"
+projects[cmstheme][download][url] = "https://github.com/bellcom/odsherred_base_theme.git"
+projects[cmstheme][download][branch] = "master"
 projects[cmstheme][directory] = "cmstheme"
 
 ;; Contrib modules below:
